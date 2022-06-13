@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  color: rebeccapurple;
+  font-size: 2em;
+}
+
+.container > div > h4 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container div {
+  width: 20%;
+  text-align: center;
+  border: solid 1px #000;
+  margin: 10px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdDi7te78fGqE5tWSB_XPBZU0E5F2tJDNoDw&usqp=CAU);
+  border-radius: 33px;
+}
